@@ -1,11 +1,11 @@
-\# EC2 인스턴스 생성하기
+## EC2 인스턴스 생성하기
 
 1\. Aws 콘솔로 접속하여 EC2 인스턴스 2개를 만들어줍니다.
 
-\# DataDog 설치 및 모니터링 작업
+## DataDog 설치 및 모니터링 작업
 
 1\. DataDog 사이트로 접속합니다.
-[https://app.datadoghq.com](https://app.datadoghq.com)
+### [https://app.datadoghq.com](https://app.datadoghq.com)
 
 <br>
 
@@ -17,7 +17,10 @@
 3\. 설치 명령어를 복사하고 아까 만들어둔 Ec2 인스턴스에 접속해서 설치를 진행합니다.
 설치가 완료되면 아래와 같이 뜨게 됩니다.
 
-[https://us5.datadoghq.com/signup/agent?platform=overview](https://us5.datadoghq.com/signup/agent?platform=overview)
+### [https://us5.datadoghq.com/signup/agent?platform=overview](https://us5.datadoghq.com/signup/agent?platform=overview)
+
+<br>
+
 ![image](https://github.com/user-attachments/assets/eacf6dee-ebd5-4cde-bb00-37f7de8f4eb2)
 ![image](https://github.com/user-attachments/assets/e000817c-2220-430a-8f26-bc1c2c32dcc0)
 
