@@ -40,7 +40,8 @@
 <br>
 
 6\. 적절한 위젯을 선택한 뒤에 특정 EC2를 지정해보겠습니다.
-from 옆에 select를 보면 2개의 선택지가 있는데 각각 EC2 인스턴스 프라이빗 ipv4 주소를 나타냅니다.
+from 옆에 select를 보면 2개의 선택지가 있는데 각각 EC2 인스턴스 
+프라이빗 ipv4 주소를 나타냅니다.
 ![image](https://github.com/user-attachments/assets/0f30f4b1-404a-40a7-9f2b-f892c90650ad)
 
 <br>
