@@ -17,25 +17,34 @@
 설치가 완료되면 아래와 같이 뜨게 됩니다.
 
 [https://us5.datadoghq.com/signup/agent?platform=overview](https://us5.datadoghq.com/signup/agent?platform=overview)
-![image](https://github.com/user-attachments/assets/a31f0abe-421b-497f-b13d-7a9a62855585)
-![image](https://github.com/user-attachments/assets/79fe6c0a-7cc9-4b76-bdb4-9dcfc41566c6)
+
+![image](https://github.com/user-attachments/assets/eacf6dee-ebd5-4cde-bb00-37f7de8f4eb2)
+
+![image](https://github.com/user-attachments/assets/e000817c-2220-430a-8f26-bc1c2c32dcc0)
+
+
 
 4\. 설치를 완료하고 DataDog 콘솔에서 아래로 내려가보면 아래처럼 메시지가 뜨는데 **Finish** 를 눌러줍니다.
-![image](https://github.com/user-attachments/assets/ce0a1914-bfdb-475d-9fec-0b663daa6c18)
+![image](https://github.com/user-attachments/assets/67db7de9-1ccd-40ef-983d-04b2818e1ea4)
+
+
 
 5\. Dashboard로 이동하여 New Dashboard를 눌러 대시보드를 만들어주겠습니다.
 
-![image](https://github.com/user-attachments/assets/91280940-242b-4357-9d2e-24d373f436b2)
-![image](https://github.com/user-attachments/assets/016c796e-c785-428e-a5cc-9b9e940c7fe5)
+![image](https://github.com/user-attachments/assets/36fbf35e-3c9b-4218-99d1-789ec558cc3e)
+
+![image](https://github.com/user-attachments/assets/c2668403-5d16-41d0-818e-051eeab7a1fd)
+
 
 
 6\. 적절한 위젯을 선택한 뒤에 특정 EC2를 지정해보겠습니다.
-
 from 옆에 select를 보면 2개의 선택지가 있는데 각각 EC2 인스턴스 프라이빗 ipv4 주소를 나타냅니다.
 
-![image](https://github.com/user-attachments/assets/9646f2ed-ab51-4290-80cb-2571b577f789)
+![image](https://github.com/user-attachments/assets/0f30f4b1-404a-40a7-9f2b-f892c90650ad)
+
 
 
 7\. 이렇게 각각의 EC2 인스턴스의 CPU 사용량을 대시보드로 볼 수 있게 되었습니다.
 
-![image](https://github.com/user-attachments/assets/dddd08f1-b8ae-41a8-af51-82d61b63a8e3)
+![image](https://github.com/user-attachments/assets/cbf5560c-9826-43f1-845e-a3a0684d5bb3)
+
