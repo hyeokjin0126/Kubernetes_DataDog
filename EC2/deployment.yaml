@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: <이름>
+  namespace: <네임스페이스>
+  labels:
+    <key>: <value> 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      <key>: <value>
+  template:
+    metadata:
+      labels:
+        <key>: <value>
+      annotations:
+        ad.datadoghq.com/skills-ctn.logs: '[{"source": "myapp", "service": "order", "log_processing_rules": [{"type": "multi_line", "pattern": "^\d{4}-\d{2}-\d{2}"}]}]'
+    spec:
+      nodeSelector: 
+        <key>: <value>
+      serviceAccountName: <서비스 어카운드 이름>
+      containers:
+        - name: <컨테이너 이름>
+          image: <이미지>
+          ports:
+            - containerPort: <포트>
+          resources:
+            limits:
+              cpu: 500m
+            requests:
+              cpu: 200m
